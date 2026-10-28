@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - Happy Toy Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🧸 Happy Toy Shop</h1>
+    <p>Contact Us</p>
+</header>
+
+<nav>
+    <a href="index.jsp">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<main class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p><b>Shop Name:</b> Happy Toy Shop</p>
+    <p><b>Email:</b> happytoyshop@gmail.com</p>
+    <p><b>Phone:</b> 9876543210</p>
+    <p><b>Address:</b> Mumbai, Maharashtra</p>
+
+    <h3>Send us a Message</h3>
+
+    <form action="ContactServlet" method="post">
+
+        <input type="text"
+               name="name"
+               placeholder="Your Name"
+               required>
+
+        <br><br>
+
+        <input type="email"
+               name="email"
+               placeholder="Your Email"
+               required>
+
+        <br><br>
+
+        <textarea name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>© 2026 Happy Toy Shop</p>
+</footer>
+
+</body>
+
+</html>
