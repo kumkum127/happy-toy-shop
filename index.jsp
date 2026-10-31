@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Happy Toy Shop - Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>? Happy Toy Shop</h1>
+    <p>Fun Toys for Happy Kids!</p>
+</header>
+
+<nav>
+    <a href="index.jsp">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+    <section class="hero">
+        <h2>Welcome to Happy Toy Shop</h2>
+
+        <p>Find amazing toys at affordable prices.</p>
+
+        <a class="button" href="products.html">
+            Shop Now
+        </a>
+    </section>
+
+    <section class="about">
+
+        <h2>Why Choose Us?</h2>
+
+        <div class="features">
+
+            <div>
+                <h3>? Quality Toys</h3>
+                <p>Fun and attractive toys for children.</p>
+            </div>
+
+            <div>
+                <h3>? Affordable Prices</h3>
+                <p>Toys at reasonable prices.</p>
+            </div>
+
+            <div>
+                <h3>? Easy Shopping</h3>
+                <p>Simple and convenient shopping.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>� 2026 Happy Toy Shop</p>
+</footer>
+
+</body>
+</html>
